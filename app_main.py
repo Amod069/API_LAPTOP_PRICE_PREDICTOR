@@ -39,7 +39,7 @@ def predict():
     query=np.array([company,type,ram,weight,touchscreen,ips,ppi,cpubrand,hdd,ssd,gpubrand,os])
     query = query.reshape(1,12)
     PREDICTED= str(round(int(np.exp(model.predict(query)))))
-    return jsonify("PREDICTED PRICE IS : " +PREDICTED)
+    return jsonify({"PRICES": "PREDICTED PRICE IS " +PREDICTED})
 
 
 if __name__ =='__main__':
