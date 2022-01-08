@@ -1,7 +1,7 @@
 
 # REST API FOR LAPTOP PRICE PREDICTIONS
 
-This is a API which takes certain parameters as input through https request(Using **POST** method) 
+This is an API which takes certain parameters as input through https request(Using **POST** method) 
 which then predicts the price of laptop using Machine learning algorithm and return the predicted price of laptop in json format
 
 
